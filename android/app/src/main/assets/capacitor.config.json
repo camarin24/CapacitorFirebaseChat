@@ -1,0 +1,6 @@
+{
+  "appId": "com.camarin.twcp",
+  "appName": "twcp",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
