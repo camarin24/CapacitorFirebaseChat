@@ -21,6 +21,7 @@
         <ion-item (click)="toggleContent(i)">
           <p>{{ item.message }} </p>
           <ion-note item-end>{{item.date | date}}</ion-note>
+          <ion-icon item-end name="copy" (click)="copy(item.message)"></ion-icon>
         </ion-item>
         <ion-card [id]="i" class="hidden animated fadeIn">
           <ion-card-content>
